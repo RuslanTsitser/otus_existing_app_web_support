@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 
+import 'counter/counter_screen.dart';
 import 'finger_painter/presentation/finger_painter_screen.dart';
-import 'info/info_screen_io.dart' if (dart.library.js_interop) 'info/info_screen_web.dart';
+// import 'info/info_screen_io.dart' if (dart.library.js_interop) 'info/info_screen_web.dart';
+// import 'info/info_screen_io.dart';
+import 'info/info_screen_web.dart';
 
 void main() {
   runApp(const MainApp());
@@ -30,6 +33,12 @@ class HomeScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           spacing: 12,
           children: [
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const CounterScreen()));
+              },
+              child: const Text('Go to Counter'),
+            ),
             ElevatedButton(
               onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => const InfoScreen()));
