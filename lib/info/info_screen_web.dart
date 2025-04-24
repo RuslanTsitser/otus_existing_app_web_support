@@ -43,6 +43,19 @@ extension ScreenExtension on Screen {
   external int get height;
 }
 
+extension type JSPerson._(JSObject _) implements JSObject {
+  external JSPerson({
+    JSString? name,
+    JSNumber? age,
+  });
+
+  external JSString? get name;
+  external JSNumber? get age;
+}
+
+@JS()
+external JSPerson getPerson();
+
 class InfoScreen extends StatelessWidget {
   const InfoScreen({super.key});
 
@@ -91,6 +104,14 @@ class InfoScreen extends StatelessWidget {
                   window.open('https://flutter.dev', 'Flutter');
                 },
                 child: const Text('Open Flutter Website'),
+              ),
+              const SizedBox(height: 10),
+              ElevatedButton(
+                onPressed: () {
+                  final person = getPerson();
+                  window.alert('Name: ${person.name}, Age: ${person.age}');
+                },
+                child: const Text('Get person'),
               ),
             ],
           ),
