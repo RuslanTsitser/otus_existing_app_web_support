@@ -109,7 +109,9 @@ class InfoScreen extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {
                   final person = getPerson();
-                  window.alert('Name: ${person.name}, Age: ${person.age}');
+                  print(1 + person.age!.toDartInt);
+                  // print(person.age);
+                  // window.alert('Name: ${person.name}, Age: ${person.age}');
                 },
                 child: const Text('Get person'),
               ),
