@@ -52414,7 +52414,7 @@ ai(){return new A.tM()}}
 A.tM.prototype={
 O1(){this.aF(new A.Xw(this))},
 R(a){var s=null
-return A.Ti(A.IJ(B.Jc),A.lz(A.a1T(A.b([B.J6,A.Vh(""+this.d,A.an(a).p1.e,s)],t.R),B.aR,B.dH,0),s,s),A.aek(s,B.y_,s,s,!1,this.gO0(),"Increment"))}}
+return A.Ti(A.IJ(B.Jc),A.lz(A.a1T(A.b([B.J7,A.Vh(""+this.d,A.an(a).p1.e,s)],t.R),B.aR,B.dH,0),s,s),A.aek(s,B.y_,s,s,!1,this.gO0(),"Increment"))}}
 A.Xw.prototype={
 $0(){++this.a.d},
 $S:0}
@@ -52479,7 +52479,7 @@ this.aB()},
 W5(a){}}
 A.m1.prototype={
 R(a){var s=null,r=A.IJ(B.Jb),q=self
-return A.Ti(r,A.lz(new A.fw(B.iH,A.a1T(A.b([B.J3,B.tE,A.Vh("User Agent: "+A.o(q.window.navigator.userAgent),B.hf,B.bU),B.ec,A.Vh("Browser Language: "+A.o(q.window.navigator.language),B.hf,B.bU),B.ec,A.Vh("Screen Size: "+A.o(q.window.screen.width)+"x"+A.o(q.window.screen.height),B.hf,B.bU),B.tE,A.pd(B.Ja,new A.Nb()),B.ec,A.pd(B.J8,new A.Nc()),B.ec,A.pd(B.J7,new A.Nd())],t.R),B.aR,B.dH,0),s),s,s),s)}}
+return A.Ti(r,A.lz(new A.fw(B.iH,A.a1T(A.b([B.J3,B.tE,A.Vh("User Agent: "+A.o(q.window.navigator.userAgent),B.hf,B.bU),B.ec,A.Vh("Browser Language: "+A.o(q.window.navigator.language),B.hf,B.bU),B.ec,A.Vh("Screen Size: "+A.o(q.window.screen.width)+"x"+A.o(q.window.screen.height),B.hf,B.bU),B.tE,A.pd(B.Ja,new A.Nb()),B.ec,A.pd(B.J9,new A.Nc()),B.ec,A.pd(B.J8,new A.Nd())],t.R),B.aR,B.dH,0),s),s,s),s)}}
 A.Nb.prototype={
 $0(){self.window.alert("Hello from Web!")},
 $S:0}
@@ -52494,7 +52494,7 @@ $S:0}
 A.yS.prototype={
 R(a){return B.Bq}}
 A.yj.prototype={
-R(a){return A.Ti(A.IJ(B.J5),A.a5X(A.a1T(A.b([A.pd(B.J4,new A.MS(a)),A.pd(B.J9,new A.MT(a)),A.pd(B.Jd,new A.MU(a))],t.R),B.aR,B.dH,12),null,1),null)}}
+R(a){return A.Ti(A.IJ(B.J6),A.a5X(A.a1T(A.b([A.pd(B.J4,new A.MS(a)),A.pd(B.J5,new A.MT(a)),A.pd(B.Jd,new A.MU(a))],t.R),B.aR,B.dH,12),null,1),null)}}
 A.MS.prototype={
 $0(){var s=A.Qy(new A.MR(),null,t.z)
 A.qF(this.a).kE(s)},
@@ -56454,11 +56454,11 @@ B.J2=new A.cG(B.Hi,B.Gw,B.Hj,B.HJ,B.Gd,B.Gk,B.GM,B.HB,B.GX,B.I7,B.FP,B.G4,B.I3,B
 B.Il=new A.l(!0,null,null,null,null,null,20,B.fc,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.J3=new A.d4("Web Browser Information:",null,B.Il,null,null)
 B.J4=new A.d4("Go to Counter",null,null,null,null)
-B.J5=new A.d4("Home",null,null,null,null)
-B.J6=new A.d4("You have pushed the button this many times:",null,null,null,null)
-B.J7=new A.d4("Get person",null,null,null,null)
-B.J8=new A.d4("Open Flutter Website",null,null,null,null)
-B.J9=new A.d4("Go to Platform Info or Web Info 1",null,null,null,null)
+B.J5=new A.d4("Go to Platform Info or Web Info 12",null,null,null,null)
+B.J6=new A.d4("Home",null,null,null,null)
+B.J7=new A.d4("You have pushed the button this many times:",null,null,null,null)
+B.J8=new A.d4("Get person",null,null,null,null)
+B.J9=new A.d4("Open Flutter Website",null,null,null,null)
 B.Ja=new A.d4("Show Alert",null,null,null,null)
 B.Jb=new A.d4("Web Platform Info",null,null,null,null)
 B.Jc=new A.d4("Counter",null,null,null,null)
