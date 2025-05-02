@@ -2,7 +2,7 @@
   "name": "Very long name for PWA",
   "short_name": "Short PWA name",
   "scope": "/otus_existing_app_web_support/",
-  "start_url": "/otus_existing_app_web_support/",
+  "start_url": ".",
   "display": "fullscreen",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
